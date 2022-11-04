@@ -2,7 +2,7 @@ import { defineConfig } from '../../src/node'
 import { version } from '../../package.json'
 
 export default defineConfig({
-  base: '/great/',
+  base: '/vitepress/',
   lang: 'zh-CN',
   title: 'Great',
   description: '微服务敏捷开发框架',
