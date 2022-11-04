@@ -1,7 +1,7 @@
 {
-  "name": "vitepress",
-  "version": "1.0.0-alpha.26",
-  "description": "Vite & Vue powered static site generator",
+  "name": "great",
+  "version": "0.0.1",
+  "description": "微服务敏捷开发框架",
   "type": "module",
   "packageManager": "pnpm@7.9.2",
   "main": "dist/node/index.js",
@@ -35,7 +35,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/vitepress.git"
+    "url": "git+https://github.com/weidadedawei/vitepress.git"
   },
   "keywords": [
     "vite",
@@ -44,9 +44,9 @@
   ],
   "author": "Evan You",
   "license": "MIT",
-  "homepage": "https://github.com/vuejs/vitepress/tree/main/#readme",
+  "homepage": "https://github.com/weidadedawei/vitepress/tree/main/#readme",
   "bugs": {
-    "url": "https://github.com/vuejs/vitepress/issues"
+    "url": "https://github.com/weidadedawei/vitepress/issues"
   },
   "scripts": {
     "dev": "rimraf dist && run-s dev-shared dev-start",

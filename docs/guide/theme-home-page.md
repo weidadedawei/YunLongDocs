@@ -20,7 +20,7 @@ layout: home
 
 hero:
   name: VitePress
-  text: Vite & Vue powered static site generator.
+  text: 微服务敏捷开发框架
   tagline: Lorem ipsum...
   image:
     src: /logo.png
@@ -28,10 +28,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/what-is-vitepress
+      link: /guide/what-is-great
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/weidadedawei/great
 ---
 ```
 

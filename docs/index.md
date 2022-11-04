@@ -1,28 +1,28 @@
 ---
 layout: home
 
-title: VitePress
-titleTemplate: Vite & Vue Powered Static Site Generator
+title: Great
+titleTemplate: 微服务敏捷开发框架
 
 hero:
-  name: VitePress
-  text: Vite & Vue Powered Static Site Generator
-  tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
+  name: Great
+  text: 微服务敏捷开发框架
+  tagline: 完全开源，敏捷开发，拥抱云原生
   actions:
     - theme: brand
-      text: Get Started
+      text: 快速开始
       link: /guide/getting-started
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      text: GitHub
+      link: https://github.com/weidadedawei/Great
 
 features:
-  - title: "Vite: The DX that can't be beat"
-    details: Feel the speed of Vite. Instant server start and lightning fast HMR that stays fast regardless of the app size.
-  - title: Designed to be simplicity first
-    details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
-  - title: Power of Vue meets Markdown
-    details: Enhance your content with all the features of Vue in Markdown, while being able to customize your site with Vue.
-  - title: Fully static yet still dynamic
-    details: Go wild with true SSG + SPA architecture. Static on page load, but engage users with 100% interactivity from there.
+  - title: 完全开源
+    details: 100%开源免费使用
+  - title: 极速开发
+    details: 代码生成，表单管理，工作流引擎，可视化图表
+  - title: 敏捷开发
+    details: 专注于以较小、可消耗的增量交付工作，创造价值
+  - title: 拥抱云原生
+    details: 遵循Devops思想，持续开发持续交付，持续集成
 ---

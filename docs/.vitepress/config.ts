@@ -2,9 +2,10 @@ import { defineConfig } from '../../src/node'
 import { version } from '../../package.json'
 
 export default defineConfig({
-  lang: 'en-US',
-  title: 'VitePress',
-  description: 'Vite & Vue powered static site generator.',
+  base: '/great/',
+  lang: 'zh-CN',
+  title: 'Great',
+  description: '微服务敏捷开发框架',
 
   lastUpdated: true,
   cleanUrls: 'without-subfolders',
@@ -26,17 +27,17 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://github.com/weidadedawei/vitepress/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/weidadedawei/great' }
     ],
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You'
+      copyright: 'Copyright © 2022-present David'
     },
 
     algolia: {
@@ -54,18 +55,18 @@ export default defineConfig({
 
 function nav() {
   return [
-    { text: 'Guide', link: '/guide/what-is-vitepress', activeMatch: '/guide/' },
-    { text: 'Configs', link: '/config/introduction', activeMatch: '/config/' },
+    { text: '指南', link: '/guide/what-is-great', activeMatch: '/guide/' },
+    { text: '配置', link: '/config/introduction', activeMatch: '/config/' },
     {
       text: version,
       items: [
         {
-          text: 'Changelog',
-          link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'
+          text: '更新日志',
+          link: 'https://github.com/weidadedawei/great/blob/main/CHANGELOG.md'
         },
         {
-          text: 'Contributing',
-          link: 'https://github.com/vuejs/vitepress/blob/main/.github/contributing.md'
+          text: '贡献',
+          link: 'https://github.com/weidadedawei/great/blob/main/contributing.md'
         }
       ]
     }
@@ -78,8 +79,8 @@ function sidebarGuide() {
       text: 'Introduction',
       collapsible: true,
       items: [
-        { text: 'What is VitePress?', link: '/guide/what-is-vitepress' },
-        { text: 'Getting Started', link: '/guide/getting-started' },
+        { text: '什么是Great?', link: '/guide/what-is-great' },
+        { text: '快速开始', link: '/guide/getting-started' },
         { text: 'Configuration', link: '/guide/configuration' },
         { text: 'Deploying', link: '/guide/deploying' }
       ]

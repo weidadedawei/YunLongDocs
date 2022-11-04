@@ -6,7 +6,7 @@ Theme configs let you customize your theme. You can define theme configs by addi
 export default {
   lang: 'en-US',
   title: 'VitePress',
-  description: 'Vite & Vue powered static site generator.',
+  description: '微服务敏捷开发框架',
 
   // Theme related configurations.
   themeConfig: {
