@@ -2,13 +2,15 @@ import { defineConfig } from '../../src/node'
 import { version } from '../../package.json'
 
 export default defineConfig({
-  base: '/vitepress/',
+  // base: '/greatdocs/',
   lang: 'zh-CN',
   title: 'Great',
   description: '微服务敏捷开发框架',
 
   lastUpdated: true,
-  cleanUrls: 'without-subfolders',
+  // cleanUrls: 'without-subfolders',
+  // cleanUrls: 'with-subfolders',
+  cleanUrls: 'disabled',
 
   head: [['meta', { name: 'theme-color', content: '#3c8772' }]],
 
