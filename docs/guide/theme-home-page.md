@@ -28,10 +28,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/what-is-great
+      link: /guide/what-is-yunlong
     - theme: alt
       text: View on GitHub
-      link: https://github.com/weidadedawei/great
+      link: https://github.com/weidadedawei/yunlong
 ---
 ```
 

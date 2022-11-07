@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: Great
+title: 云龙
 titleTemplate: 微服务敏捷开发框架
 
 hero:
-  name: Great
+  name: 云龙
   text: 微服务敏捷开发框架
   tagline: 完全开源，敏捷开发，拥抱云原生
   actions:
@@ -14,7 +14,7 @@ hero:
       link: /guide/getting-started
     - theme: alt
       text: GitHub
-      link: https://github.com/weidadedawei/Great
+      link: https://github.com/weidadedawei/YunLong
 
 features:
   - title: 完全开源

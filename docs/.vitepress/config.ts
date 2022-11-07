@@ -2,9 +2,9 @@ import { defineConfig } from '../../src/node'
 import { version } from '../../package.json'
 
 export default defineConfig({
-  // base: '/greatdocs/',
+  base: '/',
   lang: 'zh-CN',
-  title: 'Great',
+  title: 'YunLong',
   description: '微服务敏捷开发框架',
 
   lastUpdated: true,
@@ -34,12 +34,12 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/weidadedawei/great' }
+      { icon: 'github', link: 'https://github.com/weidadedawei/yunlong' }
     ],
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present David'
+      copyright: 'Copyright © 2022-present YunLong'
     },
 
     algolia: {
@@ -57,18 +57,18 @@ export default defineConfig({
 
 function nav() {
   return [
-    { text: '指南', link: '/guide/what-is-great', activeMatch: '/guide/' },
+    { text: '指南', link: '/guide/what-is-yunlong', activeMatch: '/guide/' },
     { text: '配置', link: '/config/introduction', activeMatch: '/config/' },
     {
       text: version,
       items: [
         {
           text: '更新日志',
-          link: 'https://github.com/weidadedawei/great/blob/main/CHANGELOG.md'
+          link: 'https://github.com/weidadedawei/yunlong/blob/main/CHANGELOG.md'
         },
         {
           text: '贡献',
-          link: 'https://github.com/weidadedawei/great/blob/main/contributing.md'
+          link: 'https://github.com/weidadedawei/yunlong/blob/main/contributing.md'
         }
       ]
     }
@@ -81,7 +81,7 @@ function sidebarGuide() {
       text: 'Introduction',
       collapsible: true,
       items: [
-        { text: '什么是Great?', link: '/guide/what-is-great' },
+        { text: '什么是 YunLong?', link: '/guide/what-is-yunlong' },
         { text: '快速开始', link: '/guide/getting-started' },
         { text: 'Configuration', link: '/guide/configuration' },
         { text: 'Deploying', link: '/guide/deploying' }
