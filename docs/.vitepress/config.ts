@@ -12,7 +12,13 @@ export default defineConfig({
   // cleanUrls: 'with-subfolders',
   cleanUrls: 'disabled',
 
-  head: [['meta', { name: 'theme-color', content: '#3c8772' }]],
+  head: [
+    ['meta', { name: 'theme-color', content: '#3c8772' }],
+    [
+      'script',
+      { src: 'https://hm.baidu.com/hm.js?c9c96e4dca0f4e44d53267a84cd53497' }
+    ]
+  ],
 
   markdown: {
     headers: {
