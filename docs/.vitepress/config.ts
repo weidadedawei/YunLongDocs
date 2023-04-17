@@ -45,7 +45,8 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present YunLong'
+      copyright:
+        'Copyright © 2022-present YunLong <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备18064574号-1</a>'
     },
 
     algolia: {
@@ -88,6 +89,7 @@ function sidebarGuide() {
       collapsible: true,
       items: [
         { text: '什么是 YunLong?', link: '/guide/what-is-yunlong' },
+        { text: '开发计划', link: '/guide/plan-gantt' },
         { text: '快速开始', link: '/guide/getting-started' },
         { text: 'Configuration', link: '/guide/configuration' },
         { text: 'Deploying', link: '/guide/deploying' }
