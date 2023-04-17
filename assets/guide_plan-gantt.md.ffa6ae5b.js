@@ -1,0 +1,10 @@
+import{_ as s,o as a,c as n,a as p}from"./chunks/framework.a6941a15.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/plan-gantt.md","lastUpdated":1681730293000}'),l={name:"guide/plan-gantt.md"},o=p(`<div class="language-mermaid"><button title="Copy Code" class="copy"></button><span class="lang">mermaid</span><pre class="shiki"><code><span class="line"><span style="color:#89DDFF;">gantt</span></span>
+<span class="line"><span style="color:#89DDFF;">title</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">\u7518\u7279\u56FE</span></span>
+<span class="line"><span style="color:#89DDFF;">dateFormat</span><span style="color:#A6ACCD;">  </span><span style="color:#82AAFF;">YYYY-MM-DD</span></span>
+<span class="line"><span style="color:#89DDFF;">section</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">\u540E\u7AEF</span></span>
+<span class="line"><span style="color:#A6ACCD;">\u4EFB\u52A11 </span><span style="color:#C3E88D;">          </span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;">a1, 2018-06-06, 30d</span></span>
+<span class="line"><span style="color:#A6ACCD;">\u4EFB\u52A12 </span><span style="color:#C3E88D;">    </span><span style="color:#89DDFF;">:</span><span style="color:#82AAFF;">after</span><span style="color:#A6ACCD;"> a1  , 20d</span></span>
+<span class="line"><span style="color:#89DDFF;">section</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">\u524D\u7AEF</span></span>
+<span class="line"><span style="color:#A6ACCD;">\u4EFB\u52A13 </span><span style="color:#C3E88D;">     </span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;">2018-06-12  , 12d</span></span>
+<span class="line"><span style="color:#A6ACCD;">\u4EFB\u52A14 </span><span style="color:#C3E88D;">     </span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> 24d</span></span>
+<span class="line"></span></code></pre></div>`,1),e=[o];function t(c,r,D,C,i,y){return a(),n("div",null,e)}const _=s(l,[["render",t]]);export{d as __pageData,_ as default};

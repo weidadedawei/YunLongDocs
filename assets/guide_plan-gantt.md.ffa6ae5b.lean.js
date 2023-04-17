@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,a as p}from"./chunks/framework.a6941a15.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/plan-gantt.md","lastUpdated":1681730293000}'),l={name:"guide/plan-gantt.md"},o=p("",1),e=[o];function t(c,r,D,C,i,y){return a(),n("div",null,e)}const _=s(l,[["render",t]]);export{d as __pageData,_ as default};
